@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import java.util.InputMismatchException;
+/* Tim Zhen was here */
 public class GuessingGame 
 {
 	public static void main (String[] args)
@@ -17,14 +18,14 @@ public class GuessingGame
 			{
 				try
 				{
-					System.out.println("Try and guess my age!");
+					System.out.println("Try and guess my number!");
 					int x = input.nextInt();
 					Guess = x;
 					isNumber = true; 
 				}
 				catch(InputMismatchException e)
 				{
-					System.out.println("Try and guess my age!");
+					System.out.println("Try and guess my number!");
 				}
 			}
 		}
